@@ -2,4 +2,4 @@
 
 UI practice, Outcome :
 
-<img src="images/readme_.jpg" width=150>
+<img src="images/readme_.jpg" width=200>
