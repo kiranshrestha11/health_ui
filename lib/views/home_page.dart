@@ -21,7 +21,12 @@ class HomePage extends StatelessWidget {
             "Doctors",
             style: TextStyle(fontSize: 18, fontWeight: FontWeight.w400),
           ),
-          actions: const [Icon(Icons.filter_list)]),
+          actions: const [
+            Icon(Icons.filter_list),
+            SizedBox(
+              width: 12,
+            )
+          ]),
       body: Container(
         height: double.infinity,
         width: double.infinity,
@@ -42,6 +47,7 @@ class HomePage extends StatelessWidget {
               const CategoryList(
                 contHeight: 103,
                 contWidth: 360,
+                alignment: CrossAxisAlignment.center,
                 marginBottom: 8,
                 marginTop: 8,
                 sizeBoxWidth: 360,
@@ -56,6 +62,7 @@ class HomePage extends StatelessWidget {
               const CategoryList(
                   contHeight: 200,
                   contWidth: 335,
+                  alignment: CrossAxisAlignment.start,
                   marginTop: 6,
                   marginBottom: 8,
                   sizeBoxWidth: 335,

@@ -13,6 +13,7 @@ class CategoryList extends StatelessWidget {
     required this.imageHeight,
     required this.txtMarginTop,
     required this.txtSize,
+    required this.alignment,
   }) : super(key: key);
 
   final double contHeight,
@@ -23,6 +24,7 @@ class CategoryList extends StatelessWidget {
       imageHeight,
       txtMarginTop,
       txtSize;
+  final CrossAxisAlignment alignment;
 
   @override
   Widget build(BuildContext context) {
@@ -38,6 +40,7 @@ class CategoryList extends StatelessWidget {
                 scrollDirection: Axis.horizontal,
                 itemCount: imageList.length,
                 itemBuilder: (context, index) => Column(
+                      crossAxisAlignment: alignment,
                       children: [
                         Container(
                           margin: const EdgeInsets.only(right: 14),
