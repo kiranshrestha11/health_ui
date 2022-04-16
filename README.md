@@ -2,4 +2,4 @@
 
 UI practice, Outcome :
 
-![](images/readme.jpg)
+![](images/readme_.jpg)
