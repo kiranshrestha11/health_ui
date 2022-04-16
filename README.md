@@ -2,4 +2,4 @@
 
 UI practice, Outcome :
 
-![](images/readme_.jpg)
+<img src="images/readme_.jpg" width=150>
